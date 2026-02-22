@@ -1,13 +1,19 @@
 # Industrial Portfolio 2026
 
-## Featured Projects
+## 🚀 Featured Industrial Projects (Phase 4)
 
-| Project | Description | Complexity | Link |
+| Project | Industrial Use-Case | Performance Metric | Link |
 | :--- | :--- | :--- | :--- |
-| **Edge AI IDS** | Real-time intrusion detection for ARM/Jetson using Quantized NNs. | High | [View](./edge-ai-intrusion-detection) |
-| **Cloud-Native Security Mesh** | HA Security Mesh with Circuit Breakers & Resilience. | High | [View](./cloud-native-security-mesh) |
-| **Blockchain Supply Chain** | Immutable integrity tracking with distributed consensus. | Medium | [View](./blockchain-supply-chain-integrity) |
-| **Auto-Sec Agent Ops** | REST/gRPC managed autonomous security agents. | High | [View](./autonomous-sec-agent-ops) |
+| **[Edge AI IDS](./edge-ai-intrusion-detection)** | Critical Infrastructure Protection | < 50us Inference Latency | [GitHub](https://github.com/olivier-robert/edge-ai-intrusion-detection) |
+| **[Cloud Security Mesh](./cloud-native-security-mesh)** | High-Availability Ops | 99.99% Resilience (HA) | [GitHub](https://github.com/olivier-robert/cloud-native-security-mesh) |
+| **[Auto-Sec Agent Ops](./autonomous-sec-agent-ops)** | Autonomous Security SoC | REST/gRPC OpenAPI | [GitHub](https://github.com/olivier-robert/autonomous-sec-agent-ops) |
+| **[Blockchain Integrity](./blockchain-supply-chain-integrity)** | Supply Chain Audit | Immutable Ledger | [GitHub](https://github.com/olivier-robert/blockchain-supply-chain-integrity) |
 
 ---
-*Maintained by Olivier Robert*
+## 🏗️ Architecture Decision Records (ADR)
+We document our technical choices for industrial scalability:
+- [ADR 003: Edge Performance Trade-offs](./edge-ai-intrusion-detection/docs/adr/003-performance-tradeoffs.md)
+- [ADR 004: Resilience & Circuit Breakers](./cloud-native-security-mesh/docs/adr/004-resilience-tradeoffs.md)
+
+---
+*Maintained by Olivier Robert - Industrial Security Specialist*

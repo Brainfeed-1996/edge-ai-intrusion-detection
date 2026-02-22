@@ -1,6 +1,11 @@
-# Edge AI Intrusion Detection System (IDS)
+# 🕵️ Edge AI Intrusion Detection System (IDS)
 
-A lightweight, high-performance IDS designed for Edge devices (ARM/Jetson).
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C.svg)](https://isocpp.org)
+[![Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org)
+[![Edge AI](https://img.shields.io/badge/Performance-Optimized-orange.svg)]()
+
+---
+Part of the [Industrial Portfolio 2026](https://github.com/Brainfeed-1996/industrial-portfolio-2026) ecosystem.
 
 ## Features
 - Real-time network traffic analysis using C++/Python.
@@ -12,3 +17,11 @@ A lightweight, high-performance IDS designed for Edge devices (ARM/Jetson).
 2. **Feature Extraction**: Efficient C++ processing of flow-based features.
 3. **AI Inference**: Quantized TensorFlow Lite / TensorRT model for classification.
 4. **Alerting**: Low-overhead signaling mechanism.
+
+## SRE/Monitoring
+- Performance monitoring using built-in telemetry.
+- Latency and throughput tracking for AI inference.
+
+## ADR
+- [ADR-001: Quantized Neural Network for Edge](docs/adr/001-quantized-nn.md)
+- [ADR-004: C++/Python Hybridization via pybind11](docs/adr/004-cpp-python-hybridization.md)
