@@ -1,5 +1,6 @@
 # Cyber Intel Aggregator Service
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://cyber-intel.vercel.app)
 [![Deployment Status](https://img.shields.io/badge/Status-Deploying-yellow.svg)](https://intel.brainfeed.tech)
 [![Stack: Rust](https://img.shields.io/badge/Stack-Rust-orange.svg)](https://www.rust-lang.org/)
 [![Architecture: Clean](https://img.shields.io/badge/Architecture-Clean/Modular-blue.svg)]()
