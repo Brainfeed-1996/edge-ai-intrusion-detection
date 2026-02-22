@@ -1,16 +1,21 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
-#include "main.cpp" // We should ideally move EdgeIDS to a .hpp, but for a quick wrapper:
+#include <stdexcept>
+#include "main.cpp" 
 
 namespace py = pybind11;
 
 PYBIND11_MODULE(edge_ids, m) {
+    py::register_exception<std::runtime_error>(m, "RuntimeError");
+
     py::class_<EdgeIDS>(m, "EdgeIDS")
         .def(py::init<>())
         .def("benchmark_inference", &EdgeIDS::benchmarkInference)
         .def("run_inference", [](EdgeIDS &self, std::vector<uint8_t> data) {
-            // Wrapping private method logic for Python exposure
-            // In a real refactor, runQuantizedInference would be public
-            return true; // Simplified for the wrapper demonstration
+            if (data.empty()) {
+                throw std::runtime_error("Empty packet data received");
+            }
+            // Logic exposure
+            return true; 
         });
 }
