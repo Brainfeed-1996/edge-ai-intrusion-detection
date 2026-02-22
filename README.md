@@ -1,4 +1,8 @@
-# Edge AI Intrusion Detection System (IDS)
+# 🕵️ Edge AI Intrusion Detection System (IDS)
+
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-00599C.svg)](https://isocpp.org)
+[![Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org)
+[![Edge AI](https://img.shields.io/badge/Performance-Optimized-orange.svg)]()
 
 A lightweight, high-performance IDS designed for Edge devices (ARM/Jetson).
 
