@@ -4,7 +4,8 @@
 [![Python](https://img.shields.io/badge/Language-Python-3776AB.svg)](https://www.python.org)
 [![Edge AI](https://img.shields.io/badge/Performance-Optimized-orange.svg)]()
 
-A lightweight, high-performance IDS designed for Edge devices (ARM/Jetson).
+---
+Part of the [Industrial Portfolio 2026](https://github.com/Brainfeed-1996/industrial-portfolio-2026) ecosystem.
 
 ## Features
 - Real-time network traffic analysis using C++/Python.
