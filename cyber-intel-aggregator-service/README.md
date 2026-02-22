@@ -1,7 +1,7 @@
 # Cyber Intel Aggregator Service
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://cyber-intel.vercel.app)
-[![Deployment Status](https://img.shields.io/badge/Status-Deploying-yellow.svg)](https://intel.brainfeed.tech)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://intel-aggregator.brainfeed.tech)
+[![Deployment Status](https://img.shields.io/badge/Status-Live-brightgreen.svg)](https://intel-aggregator.brainfeed.tech)
 [![Stack: Rust](https://img.shields.io/badge/Stack-Rust-orange.svg)](https://www.rust-lang.org/)
 [![Architecture: Clean](https://img.shields.io/badge/Architecture-Clean/Modular-blue.svg)]()
 
@@ -27,7 +27,7 @@ docker-compose up -d
 - **Frontend**: Next.js (Tailwind / Shadcn UI)
 - **Storage**: PostgreSQL (TimescaleDB for intel history), Redis (Queue/Cache)
 - **Metrics**: Prometheus exported on `:8080/metrics`
-- **Dashboard**: [https://intel.brainfeed.tech](https://intel.brainfeed.tech)
+- **Dashboard**: [https://intel-aggregator.brainfeed.tech](https://intel-aggregator.brainfeed.tech)
 
 ## 🗺 Roadmap
 - [x] Initial Modular Scaffolding.
